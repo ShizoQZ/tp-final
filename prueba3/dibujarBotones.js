@@ -18,8 +18,11 @@ function dibujarBotones() {
       text('Colocar agua hirviendo', posXD + 20, posYD +20);
     }
   }
-  else if (Pantalla === 12 || Pantalla === 13 || Pantalla === 14) {
+  else if (Pantalla === 13 || Pantalla === 14 || Pantalla === 15) {
     image(reinicio, posXR, posYR, tam, tam);
+  }
+  else if (Pantalla === 12){
+    image(reinicio, posXR, posYR + 350, tam, tam);
   }
   else {
     image(flecha, posX, posY, tam, tam);

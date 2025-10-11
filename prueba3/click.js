@@ -1,7 +1,4 @@
-function click (posX, posY, tam){ //funcion con parametros
-  
-  return mouseX>posX && mouseX<posX + tam//2
-  mouseY>posY&& mouseY<posY + tam;
+function click(posX, posY, tamX, tamY) { 
+return mouseX > posX && mouseX < posX + tamX &&
+mouseY > posY && mouseY < posY + tamY;
 }
-
-//no tocar nada

@@ -21,7 +21,7 @@ let reinicio;
 let textoBoton1;
 let textoBoton2;
 function preload () {
-  for (let i =0; i <15; i++) {
+  for (let i =0; i <16; i++) {
     miImagen [i]= loadImage("data/pantalla"+i+".jpeg");
     texto [i]= loadStrings("data/texto"+i+".txt");
   }
